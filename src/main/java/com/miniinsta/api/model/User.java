@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
 
+
 @Data // Lombok сам создаст геттеры и сеттеры
 @Entity
 @Table(name = "users") // Название таблицы в БД
